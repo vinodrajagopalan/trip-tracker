@@ -1,15 +1,14 @@
 import React from "react";
 import Proptypes from "prop-types";
 import { hot } from "react-hot-loader/root";
-import { Title } from "./app.style";
+import { Title } from "./App.style";
 
 class App extends React.Component {
   render() {
     const { name } = this.props;
     return (
       <>
-        <h1>Hello world1 {name}</h1>
-        <Title>Test</Title>
+        <Title>{name}</Title>
       </>
     );
   }
