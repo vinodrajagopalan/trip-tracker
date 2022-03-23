@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+# Build folder
+dist
+
+# IDE metadata
+.idea
+.vscode
+*.iml
+
+# Mac files
+.DS_Store
+
+# Test generated
+coverage
+test-reports
+
+# Optional eslint cache
+.eslintcache
+
+# vscode file history
+.history
+
+# mobile-app version
+appVersion
+
+reports/
+sourcemap/
+.lighthouseci
+
+used-corejs.txt
+used-babel-plugins.txt
+
+nginx.conf
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
