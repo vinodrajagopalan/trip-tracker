@@ -1,6 +1,7 @@
 import React from "react";
 import Proptypes from "prop-types";
 import { hot } from "react-hot-loader/root";
+import { Title } from "./app.style";
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
     return (
       <>
         <h1>Hello world1 {name}</h1>
+        <Title>Test</Title>
       </>
     );
   }
