@@ -5,7 +5,9 @@
   "license": "MIT",
   "description": "trip tracker web tool",
   "scripts": {
-    "test": "jest",
+    "test:unit": "jest",
+    "test-coverage": "jest --coverage",
+    "test": "yarn test:unit && yarn test-coverage",
     "clean:build": "rm -rf dist",
     "start": "webpack serve --hot --mode development",
     "prettier": "prettier \"{src, scripts, tests}/**/*.{js,md}\"",
