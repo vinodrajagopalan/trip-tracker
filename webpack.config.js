@@ -5,6 +5,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const config = {
+  mode: 'development',
   entry: [
     'react-hot-loader/patch',
     './src/index.js'

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should have hello world message 1`] = `
+<h1
+  class="sc-bdvvtL gEFSUE"
+>
+  hello world
+</h1>
+`;
